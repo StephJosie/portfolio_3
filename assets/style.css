@@ -1,0 +1,153 @@
+* {
+    @media screen 
+        max-width: 900px;
+        
+    
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: fantasy;
+    font-size: large;
+    background-color: white;
+}
+
+h2 {
+    font-weight: bold;
+
+}
+
+.header {
+    border: solid;
+    border-color: lightpink;
+    border-radius: 5%;
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+    background-image: url(../assets/images/peonies_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: ivory;
+    color: black
+    
+}
+
+.transbox {
+    margin: 30px;
+    padding: 20px;
+    background-color: pink;
+    color: black;
+    border-radius: 50%;
+    opacity: normal;
+    font-weight: bold;
+    font-family: fantasy 
+    
+
+}
+
+.navbar {
+    font-weight: bold;
+    justify-content: space-around;
+    border-radius: 50%;
+    position:inherit;
+    padding: 2%;
+    margin: 10px;
+    display: flex;
+    opacity: 0.6;
+    color: white;
+    background-color: pink
+
+    
+}
+
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center
+}
+
+.navbar a:hover {
+    background-color:white;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin: 10px;
+    text-align: left;
+    background-color: ivory;
+    border: solid;
+    border-color: lightpink;
+    border-radius: 5%;
+    
+    
+    
+    
+}
+
+ 
+.flex-container h2 {
+    flex: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    font-size: large;
+    height: 20px; 
+    padding: 20px;
+    width: 200px;
+    
+    
+    
+
+}
+
+.flex-container p {
+    flex: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    height: 50px;
+    border: 10px;
+
+
+}
+
+
+#grid {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(4);
+  }
+
+
+h3 {
+    text-align: center;
+}
+
+/* .flex-container p {
+    flex:70%
+    justify-content: center;
+    align-content: space-around;
+    color: black;
+    text-align: center;
+    font-size: large;
+
+}
+
+ */
+
+
+
+    
+    
