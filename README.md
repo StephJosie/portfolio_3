@@ -4,7 +4,7 @@ I created a working portfolio.  I will be able to add to my portfolio as I learn
 
 ## Usage
 This will oneday be used to help with job hunting.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+
+! [Alt text] 
+(/HW_WK_2/portfolio_3/assets/images/Screenshot.png?raw=true)
