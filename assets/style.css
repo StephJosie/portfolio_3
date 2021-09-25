@@ -135,6 +135,41 @@ h3 {
     text-align: center;
 }
 
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: hotpink
+
+}
+
+a:active {
+    color: plum
+}
+
+a{
+    color: black;
+}
+
+a.highlight:hover {
+    color: hotpink;
+    font-size: larger
+}
+
+
+img.active:hover {
+    opacity: 0.5;
+    border: lightpink;
+    border-radius: 1px;
+    border-style: solid;
+
+}
+
+img.pic {
+    margin-left: 20px;
+}
+
 /* .flex-container p {
     flex:70%
     justify-content: center;
