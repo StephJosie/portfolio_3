@@ -7,4 +7,4 @@ This will oneday be used to help with job hunting.
 
 
 ! [Alt text] 
-(/HW_WK_2/portfolio_3/assets/images/Screenshot.png?raw=true)
+![Alt text](./assets/images/profiless.png "ScreenShot")
